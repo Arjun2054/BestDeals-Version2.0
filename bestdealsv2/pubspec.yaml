@@ -12,6 +12,10 @@ dependencies:
     sdk: flutter
 
   #utility Package
+  http: ^1.1.0
+  intl: ^0.19.0
+  logger: ^2.0.2+1
+  url_launcher: ^6.2.2
 
   #icons
   cupertino_icons: ^1.0.2
@@ -19,6 +23,7 @@ dependencies:
 
   #state management
   get: ^4.6.6
+  get_storage: ^2.1.1
 
   #product specific
 
@@ -39,7 +44,7 @@ flutter:
     - assets/fonts/
     - assets/logos/
 
-  # example:
+  #----------Local Fonts---------------------------#
   fonts:
     - family: Poppins
       fonts:
@@ -58,7 +63,3 @@ flutter:
           weight: 600
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 800
-
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
