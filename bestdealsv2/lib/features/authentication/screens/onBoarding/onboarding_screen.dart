@@ -3,7 +3,7 @@ import 'package:bestdealsv2/utils/constants/image_strings.dart';
 
 import 'package:bestdealsv2/utils/constants/texts.dart';
 import 'package:flutter/material.dart';
-import '../../controller.onboarding/onboarding_controller.dart';
+import '../../controllers/onboarding/onboarding_controller.dart';
 import 'widgets/onboarding_dot_navigation.dart';
 import 'widgets/onboarding_page.dart';
 import 'widgets/onboarding_skip.dart';
