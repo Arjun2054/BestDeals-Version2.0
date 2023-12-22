@@ -15,4 +15,12 @@ class TImages {
       "assets/images/onboarding/onboarding_search.gif";
   static const String onBoardingVideos =
       "assets/images/onboarding/onboarding_videos.gif";
+
+  // -- Signup Images---------
+
+  static const String emailVerify = "assets/images/animation/received_mail.png";
+  static const String emailCreatedSucessfully =
+      "assets/images/animation/account_created.gif";
+  static const String emailCreatedSucess =
+      "assets/images/animation/account_created_sucess.png";
 }

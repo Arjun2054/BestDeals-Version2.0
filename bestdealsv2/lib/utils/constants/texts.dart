@@ -33,7 +33,7 @@ class TTexts {
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
   static const String changeYourPasswordSubTitle =
       "Your account security is Our Priority! We've sent Your a Secure Link to safety Change Your Password";
-  static const String confirmEmail = "Verify your email address";
+  static const String confirmEmail = "Verify your email address!";
   static const String confirmEmailSubTitle =
       "Congratulations! Your Account Awaits: Verify your email to start learning and experience a world of online platforms";
   static const String emailNotReceivedMessage =
@@ -65,4 +65,5 @@ class TTexts {
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend Email";
   static const String and = "and";
+  static const String tContinue = "Continue";
 }

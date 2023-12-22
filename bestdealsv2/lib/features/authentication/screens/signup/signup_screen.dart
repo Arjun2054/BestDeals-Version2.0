@@ -1,11 +1,7 @@
 import 'package:bestdealsv2/common/styles/form_divider.dart';
 import 'package:bestdealsv2/features/authentication/screens/login/widgets/t_social_buttons.dart';
-import 'package:bestdealsv2/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
-
-import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/texts.dart';
 import 'widgets/t_signup_form.dart';
@@ -15,7 +11,6 @@ class SignupScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = THelperFunctions.isDarkMode(context);
     return Scaffold(
       appBar: AppBar(),
       body: SingleChildScrollView(
