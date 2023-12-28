@@ -20,7 +20,7 @@ class TTexts {
   // -- Home
 
   static const String homeAppBarTitle = "Let's Start Learning";
-  static const homeAppBarSubTitle = "Architerone Design Studio";
+  static const homeAppBarSubTitle = "Arjun Shrestha";
 
   // - --- Authentication Heading Text ---
   static const String loginTitle = "Welcome back,";
@@ -66,4 +66,6 @@ class TTexts {
   static const String resendEmailIn = "Resend Email";
   static const String and = "and";
   static const String tContinue = "Continue";
+  static const String submit = "Submit";
+  static const String done = "Done";
 }

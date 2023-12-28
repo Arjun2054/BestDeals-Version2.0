@@ -9,6 +9,8 @@ class TColors {
   static const Color secondaryColor = Color(0xFFFFE24B);
   static const Color accentColor = Color(0xFFb0c7ff);
 
+  static const Color whitetColor = Color.fromARGB(255, 255, 255, 255);
+
   // Gradient Colors
   static const Gradient linerGradientColor = LinearGradient(
     begin: Alignment(0.0, 0.0),
