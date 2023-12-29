@@ -1,4 +1,3 @@
-import 'package:bestdealsv2/features/authentication/screens/onBoarding/onboarding_screen.dart';
 import 'package:bestdealsv2/navigation_menu.dart';
 import 'package:bestdealsv2/utils/theme/theme.dart';
 import 'package:flutter/material.dart';

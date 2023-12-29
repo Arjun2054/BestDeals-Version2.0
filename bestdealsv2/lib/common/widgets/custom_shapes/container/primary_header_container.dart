@@ -18,21 +18,21 @@ class TPrimaryHeaderContainer extends StatelessWidget {
         padding: const EdgeInsets.all(0.0),
         // -- If [Size.infinite : is not true in stack ] errr occured
         child: SizedBox(
-          height: 350,
+          height: 380,
           child: Stack(
             children: [
               Positioned(
                 top: -150,
                 right: -250,
                 child: TCircularContainer(
-                  backgroundColor: TColors.whitetColor.withOpacity(0.1),
+                  backgroundColor: TColors.whiteColor.withOpacity(0.1),
                 ),
               ),
               Positioned(
                 top: 100,
                 right: -300,
                 child: TCircularContainer(
-                  backgroundColor: TColors.whitetColor.withOpacity(0.1),
+                  backgroundColor: TColors.whiteColor.withOpacity(0.1),
                 ),
               ),
               child,

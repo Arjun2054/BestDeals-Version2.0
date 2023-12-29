@@ -38,7 +38,7 @@ class TCartCounterIcon extends StatelessWidget {
                 style: Theme.of(context)
                     .textTheme
                     .labelLarge!
-                    .apply(color: TColors.whitetColor, fontSizeFactor: 0.8),
+                    .apply(color: TColors.whiteColor, fontSizeFactor: 0.8),
               ),
             ),
           ),

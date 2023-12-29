@@ -21,6 +21,7 @@ class TTexts {
 
   static const String homeAppBarTitle = "Let's Start Learning";
   static const homeAppBarSubTitle = "Arjun Shrestha";
+  static const homeSearchTitle = "Search in store";
 
   // - --- Authentication Heading Text ---
   static const String loginTitle = "Welcome back,";

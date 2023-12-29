@@ -28,7 +28,7 @@ class THomeAppBar extends StatelessWidget {
             style: Theme.of(context)
                 .textTheme
                 .headlineSmall!
-                .apply(color: TColors.whitetColor),
+                .apply(color: TColors.whiteColor),
           ),
         ],
       ),
@@ -37,7 +37,7 @@ class THomeAppBar extends StatelessWidget {
           onPressed: () {},
           icon: const Icon(
             Iconsax.sun_fog5,
-            color: TColors.whitetColor,
+            color: TColors.whiteColor,
           ),
         ),
       ],

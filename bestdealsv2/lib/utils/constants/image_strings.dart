@@ -23,4 +23,14 @@ class TImages {
       "assets/images/animation/account_created.gif";
   static const String emailCreatedSucess =
       "assets/images/animation/account_created_sucess.png";
+
+  // --HomePage Image
+  static const String interiorDesigner = "assets/icons/categories/3D.png";
+  static const String architecuralDesigner =
+      "assets/icons/categories/architectural.png";
+  static const String fashionDesigner = "assets/icons/categories/fashion.png";
+  static const String gameDesigner = "assets/icons/categories/game-design.png";
+  static const String graphicDesigner =
+      "assets/icons/categories/graphic-design.png";
+  static const String rendering = "assets/icons/categories/render.png";
 }
