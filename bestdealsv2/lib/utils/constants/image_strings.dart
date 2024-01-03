@@ -33,4 +33,9 @@ class TImages {
   static const String graphicDesigner =
       "assets/icons/categories/graphic-design.png";
   static const String rendering = "assets/icons/categories/render.png";
+
+  // Banner Images
+  static const String bannerImage1 = "assets/images/banner/banner_1.jpg";
+  static const String bannerImage2 = "assets/images/banner/banner_2.jpg";
+  static const String bannerImage3 = "assets/images/banner/banner_3.jpg";
 }

@@ -18,7 +18,7 @@ class TPrimaryHeaderContainer extends StatelessWidget {
         padding: const EdgeInsets.all(0.0),
         // -- If [Size.infinite : is not true in stack ] errr occured
         child: SizedBox(
-          height: 380,
+          height: 340,
           child: Stack(
             children: [
               Positioned(
