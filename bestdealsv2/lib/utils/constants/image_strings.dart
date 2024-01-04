@@ -38,4 +38,17 @@ class TImages {
   static const String bannerImage1 = "assets/images/banner/banner_1.jpg";
   static const String bannerImage2 = "assets/images/banner/banner_2.jpg";
   static const String bannerImage3 = "assets/images/banner/banner_3.jpg";
+
+  // courses images
+  static const String courseImage1 = "assets/images/course/courseimage_1.jpg";
+  static const String courseImage2 = "assets/images/course/courseimage_2.jpg";
+  static const String courseImage3 = "assets/images/course/courseimage_3.jpg";
+  static const String courseImage4 = "assets/images/course/courseimage_4.jpg";
+  static const String courseImage5 = "assets/images/course/courseimage_5.jpg";
+  static const String courseImage6 = "assets/images/course/courseimage_6.jpg";
+  static const String courseImage7 = "assets/images/course/courseimage_7.jpg";
+  static const String courseImage8 = "assets/images/course/courseimage_8.jpg";
+  static const String courseImage9 = "assets/images/course/courseimage_9.jpg";
+  static const String courseImage10 = "assets/images/course/courseimage_10.jpg";
+  static const String courseImage11 = "assets/images/course/courseimage_11.jpg";
 }

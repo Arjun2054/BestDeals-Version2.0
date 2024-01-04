@@ -1,3 +1,4 @@
+import 'package:bestdealsv2/features/course/screens/coursestore/course_store.dart';
 import 'package:bestdealsv2/features/course/screens/home/home_screen.dart';
 import 'package:bestdealsv2/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
@@ -47,9 +48,7 @@ class NavigationController extends GetxController {
 
   final screens = [
     const HomeScreen(),
-    Container(
-      color: Colors.red,
-    ),
+    const CourseStoreScreen(),
     Container(
       color: Colors.green,
     ),

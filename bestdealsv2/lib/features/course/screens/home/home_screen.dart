@@ -1,4 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:bestdealsv2/common/widgets/courses/course_cards/course_card_vertical.dart';
+import 'package:bestdealsv2/common/widgets/layouts/grid_layout.dart';
+import 'package:bestdealsv2/common/widgets/text/section_heading.dart';
 import 'package:bestdealsv2/features/course/screens/home/widgets/home_app_bar.dart';
 import 'package:bestdealsv2/utils/constants/sizes.dart';
 import 'package:bestdealsv2/utils/constants/texts.dart';
@@ -51,13 +54,30 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 children: [
                   // Promo Sliders
-                  TPromoSlider(
+                  const TPromoSlider(
                     banners: [
                       TImages.bannerImage1,
                       TImages.bannerImage2,
                       TImages.bannerImage3
                     ],
                   ),
+                  const SizedBox(
+                    height: TSizes.spaceBtwnSections,
+                  ),
+
+                  // Heading
+                  TSectionHeading(
+                    title: "Popular Course",
+                    onPressed: () {},
+                    showActionButton: true,
+                  ),
+                  const SizedBox(
+                    height: TSizes.spaceBtwnItems,
+                  ),
+
+                  TGridLayout(
+                      itemCount: 4,
+                      itembuilder: (_, index) => const TCourseCardVertical())
 
                   // Popular Courses
                 ],

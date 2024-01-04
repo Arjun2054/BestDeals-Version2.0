@@ -44,6 +44,7 @@ flutter:
   assets:
     - assets/images/onboarding/
     - assets/images/banner/
+    - assets/images/course/
     - assets/images/animation/
     - assets/icons/categories/
     - assets/fonts/
