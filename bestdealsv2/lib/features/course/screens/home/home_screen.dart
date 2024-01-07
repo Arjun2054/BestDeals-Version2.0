@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import '../../../../common/widgets/custom_shapes/container/primary_header_container.dart';
 import '../../../../common/widgets/custom_shapes/container/search_container.dart';
+import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/image_strings.dart';
 import 'widgets/home_categories.dart';
 import 'widgets/promo_slider.dart';
@@ -28,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                   // -- Appbar
                   THomeAppBar(),
                   SizedBox(
-                    height: TSizes.spaceBtwnItems,
+                    height: TSizes.spaceBtwnSections,
                   ),
 
                   // -- Searchbar
@@ -39,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                     icon: (Iconsax.search_normal),
                   ),
                   SizedBox(
-                    height: TSizes.spaceBtwnItems,
+                    height: TSizes.spaceBtwnSections,
                   ),
 
                   // -- Categories
@@ -48,6 +49,7 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
+
             // Body Part
             Padding(
               padding: const EdgeInsets.all(TSizes.defaultSpace),

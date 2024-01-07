@@ -51,4 +51,5 @@ class TImages {
   static const String courseImage9 = "assets/images/course/courseimage_9.jpg";
   static const String courseImage10 = "assets/images/course/courseimage_10.jpg";
   static const String courseImage11 = "assets/images/course/courseimage_11.jpg";
+  static const String courseImage12 = "assets/images/course/courseimage_12.jpg";
 }

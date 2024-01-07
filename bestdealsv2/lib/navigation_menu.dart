@@ -1,5 +1,7 @@
 import 'package:bestdealsv2/features/course/screens/coursestore/course_store.dart';
 import 'package:bestdealsv2/features/course/screens/home/home_screen.dart';
+import 'package:bestdealsv2/features/course/screens/wishlist/wishlist.dart';
+import 'package:bestdealsv2/features/personalization/screens/settings/setting_screen.dart';
 import 'package:bestdealsv2/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -52,11 +54,7 @@ class NavigationController extends GetxController {
     Container(
       color: Colors.green,
     ),
-    Container(
-      color: Colors.yellow,
-    ),
-    Container(
-      color: Colors.blue,
-    ),
+    const WishListScreen(),
+    const SettingScreen(),
   ];
 }

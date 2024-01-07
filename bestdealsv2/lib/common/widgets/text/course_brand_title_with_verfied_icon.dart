@@ -42,7 +42,7 @@ class TCourseBrandTitleWithVerfiedIcon extends StatelessWidget {
           width: TSizes.xs,
         ),
         Icon(
-          Iconsax.verify5,
+          Iconsax.video5,
           color: iconColor,
           size: TSizes.iconXs,
         )

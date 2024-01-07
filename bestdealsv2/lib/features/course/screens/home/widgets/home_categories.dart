@@ -38,7 +38,10 @@ class THomeCategories extends StatelessWidget {
                     backgroundColor: TColors.whiteColor,
                   );
                 }),
-          )
+          ),
+          const SizedBox(
+            height: TSizes.spaceBtwnSections,
+          ),
         ],
       ),
     );
