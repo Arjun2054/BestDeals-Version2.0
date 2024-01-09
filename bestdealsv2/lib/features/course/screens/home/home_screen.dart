@@ -6,11 +6,13 @@ import 'package:bestdealsv2/features/course/screens/home/widgets/home_app_bar.da
 import 'package:bestdealsv2/utils/constants/sizes.dart';
 import 'package:bestdealsv2/utils/constants/texts.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import '../../../../common/widgets/custom_shapes/container/primary_header_container.dart';
 import '../../../../common/widgets/custom_shapes/container/search_container.dart';
 import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/image_strings.dart';
+import '../all_courses/all_course.dart';
 import 'widgets/home_categories.dart';
 import 'widgets/promo_slider.dart';
 
@@ -23,6 +25,7 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            ///---Header Sections-------
             const TPrimaryHeaderContainer(
               child: Column(
                 children: [
@@ -35,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   // -- Searchbar
                   TSearchContainer(
                     showBackground: true,
-                    showBorder: true,
+                    showBorder: false,
                     text: TTexts.homeSearchTitle,
                     icon: (Iconsax.search_normal),
                   ),
@@ -45,7 +48,26 @@ class HomeScreen extends StatelessWidget {
 
                   // -- Categories
 
-                  THomeCategories(),
+                  Padding(
+                    padding: EdgeInsets.only(left: TSizes.defaultSpace),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        TSectionHeading(
+                          title: 'Popular Category',
+                          textColor: TColors.whiteColor,
+                          showActionButton: false,
+                        ),
+                        SizedBox(
+                          height: TSizes.spaceBtwnItems,
+                        ),
+                        THomeCategories(),
+                        SizedBox(
+                          height: TSizes.spaceBtwnSections,
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -70,7 +92,7 @@ class HomeScreen extends StatelessWidget {
                   // Heading
                   TSectionHeading(
                     title: "Popular Course",
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const AllCourses()),
                     showActionButton: true,
                   ),
                   const SizedBox(

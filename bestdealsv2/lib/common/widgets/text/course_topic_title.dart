@@ -3,21 +3,21 @@ import 'package:flutter/material.dart';
 
 import '../../../utils/constants/emums.dart';
 
-class TCourseBrandTitle extends StatelessWidget {
-  const TCourseBrandTitle({
+class TCourseTopicTitle extends StatelessWidget {
+  const TCourseTopicTitle({
     Key? key,
     this.color,
     required this.title,
     this.maxlines = 1,
     this.textAlign = TextAlign.center,
-    this.courseBrandtextSizes = TextSizes.small,
+    this.courseTopicTextSizes = TextSizes.small,
   }) : super(key: key);
 
   final Color? color;
   final String title;
   final int maxlines;
   final TextAlign? textAlign;
-  final TextSizes courseBrandtextSizes;
+  final TextSizes courseTopicTextSizes;
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class TCourseBrandTitle extends StatelessWidget {
       title, textAlign: textAlign, overflow: TextOverflow.ellipsis,
 
       /// Check which brandcourse is required and set that style
-      style: courseBrandtextSizes == TextSizes.small
+      style: courseTopicTextSizes == TextSizes.small
           ? Theme.of(context).textTheme.labelMedium!.apply(color: color)
-          : courseBrandtextSizes == TextSizes.medium
+          : courseTopicTextSizes == TextSizes.medium
               ? Theme.of(context).textTheme.bodyLarge!.apply(color: color)
-              : courseBrandtextSizes == TextSizes.large
+              : courseTopicTextSizes == TextSizes.large
                   ? Theme.of(context).textTheme.titleLarge!.apply(color: color)
                   : Theme.of(context).textTheme.bodyMedium!.apply(color: color),
     );

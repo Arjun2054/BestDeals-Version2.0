@@ -52,4 +52,9 @@ class TImages {
   static const String courseImage10 = "assets/images/course/courseimage_10.jpg";
   static const String courseImage11 = "assets/images/course/courseimage_11.jpg";
   static const String courseImage12 = "assets/images/course/courseimage_12.jpg";
+
+  // payment images
+  static const String esewa = "assets/icons/payment/esewa.png";
+  static const String successfullPayment =
+      "assets/icons/payment/successful_payment_icon.png";
 }

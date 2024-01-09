@@ -27,8 +27,13 @@ dependencies:
   #state management
   get: ^4.6.6
   get_storage: ^2.1.1
+
+  #Course Specfic
   readmore: ^2.2.0
   flutter_rating_bar: ^4.0.1
+
+  #firebase configuration
+  firebase_core: ^2.24.2
 
   #product specific
 
@@ -49,6 +54,7 @@ flutter:
     - assets/images/course/
     - assets/images/animation/
     - assets/icons/categories/
+    - assets/icons/payment/
     - assets/fonts/
     - assets/logos/
 

@@ -21,7 +21,7 @@ class TRatingBarIndicator extends StatelessWidget {
       itemBuilder: (_, __) {
         return const Icon(
           Iconsax.star1,
-          color: TColors.primaryColor,
+          color: TColors.primary,
         );
       },
     );

@@ -1,13 +1,9 @@
 import 'package:bestdealsv2/common/widgets/custom_shapes/container/rounded_container.dart';
 import 'package:bestdealsv2/common/widgets/list_tile/detail_menu_title.dart';
-
 import 'package:bestdealsv2/utils/constants/colors.dart';
 import 'package:bestdealsv2/utils/constants/sizes.dart';
-
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-
-import '../../../../../common/widgets/list_tile/setting_menu_tile.dart';
 import '../../../../../common/widgets/text/course_price_text.dart';
 
 class TCourseMetaData extends StatelessWidget {
@@ -24,7 +20,7 @@ class TCourseMetaData extends StatelessWidget {
             /// Sale Tag
             TRoundedContainer(
               radius: TSizes.sm,
-              backgroundColor: TColors.secondaryColor.withOpacity(0.8),
+              backgroundColor: TColors.secondary.withOpacity(0.8),
               padding: const EdgeInsets.symmetric(
                   horizontal: TSizes.sm, vertical: TSizes.xs),
               child: Text(
@@ -71,7 +67,7 @@ class TCourseMetaData extends StatelessWidget {
                   style: Theme.of(context)
                       .textTheme
                       .bodyMedium!
-                      .apply(color: TColors.primaryColor)),
+                      .apply(color: TColors.primary)),
             ],
           ),
         ),

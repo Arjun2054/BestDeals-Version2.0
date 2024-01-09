@@ -3,7 +3,7 @@ import 'package:bestdealsv2/common/widgets/layouts/grid_layout.dart';
 import 'package:bestdealsv2/common/widgets/text/section_heading.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../common/widgets/courses/course_cards/course_brand_card.dart';
+import '../../../../../common/widgets/courses/course_cards/course_topic_card.dart';
 import '../../../../../common/widgets/custom_shapes/container/rounded_container.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
@@ -28,7 +28,7 @@ class TCategoryTab extends StatelessWidget {
                 backgroundColor: Colors.transparent,
                 padding: EdgeInsets.all(TSizes.md),
                 margin: EdgeInsets.only(bottom: TSizes.spaceBtwnItems),
-                child: TCourseBrandCard(showBorder: false),
+                child: TCourseTopicCard(showBorder: false),
               ),
               const SizedBox(
                 height: TSizes.spaceBtwnItems,
@@ -39,7 +39,7 @@ class TCategoryTab extends StatelessWidget {
                 backgroundColor: Colors.transparent,
                 padding: EdgeInsets.all(TSizes.md),
                 margin: EdgeInsets.only(bottom: TSizes.spaceBtwnItems),
-                child: TCourseBrandCard(showBorder: false),
+                child: TCourseTopicCard(showBorder: false),
               ),
               const SizedBox(
                 height: TSizes.spaceBtwnItems,

@@ -3,11 +3,13 @@ import 'package:bestdealsv2/common/widgets/appbar/tab_bar.dart';
 import 'package:bestdealsv2/common/widgets/custom_shapes/container/search_container.dart';
 import 'package:bestdealsv2/common/widgets/layouts/grid_layout.dart';
 import 'package:bestdealsv2/common/widgets/text/section_heading.dart';
+import 'package:bestdealsv2/features/course/screens/topics/all_topics.dart';
 import 'package:bestdealsv2/utils/constants/sizes.dart';
 import 'package:bestdealsv2/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import '../../../../common/widgets/courses/course_cards/course_brand_card.dart';
+import '../../../../common/widgets/courses/course_cards/course_topic_card.dart';
 import '../../../../utils/constants/colors.dart';
 import 'widgets/category_tab.dart';
 
@@ -59,8 +61,8 @@ class CourseStoreScreen extends StatelessWidget {
 
                       ///-- Features Courses Headings
                       TSectionHeading(
-                        title: 'Features',
-                        onPressed: () {},
+                        title: 'Topics',
+                        onPressed: () => Get.to(() => const AllTopics()),
                       ),
                       const SizedBox(
                         height: TSizes.spaceBtwnItems / 1.5,
@@ -70,7 +72,7 @@ class CourseStoreScreen extends StatelessWidget {
                         itemCount: 4,
                         mainAxisExtent: 80,
                         itembuilder: (_, index) {
-                          return const TCourseBrandCard(
+                          return const TCourseTopicCard(
                             showBorder: true,
                           );
                         },

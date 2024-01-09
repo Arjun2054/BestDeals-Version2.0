@@ -1,10 +1,10 @@
 import 'package:bestdealsv2/common/styles/shadows.dart';
 import 'package:bestdealsv2/common/widgets/images/rounded_images.dart';
-import 'package:bestdealsv2/common/widgets/text/course_brand_title_with_verfied_icon.dart';
+import 'package:bestdealsv2/common/widgets/text/course_topic_title_with_verfied_icon.dart';
 import 'package:bestdealsv2/common/widgets/text/course_price_text.dart';
 import 'package:bestdealsv2/common/widgets/text/course_title.dart';
 import 'package:bestdealsv2/features/course/screens/course_details/course_details_screen.dart';
-import 'package:bestdealsv2/features/course/screens/coursestore/course_store.dart';
+
 import 'package:bestdealsv2/utils/constants/image_strings.dart';
 import 'package:bestdealsv2/utils/constants/sizes.dart';
 import 'package:bestdealsv2/utils/helpers/helper_functions.dart';
@@ -19,7 +19,6 @@ class TCourseCardVertical extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isDark = THelperFunctions.isDarkMode(context);
     // Container with side paddings, colors, edges, radius and shadow
     return GestureDetector(
       onTap: () => Get.to(() => const CourseDetailsScreen()),
@@ -51,7 +50,7 @@ class TCourseCardVertical extends StatelessWidget {
                   right: 0,
                   child: TRoundedContainer(
                     radius: 0,
-                    backgroundColor: TColors.secondaryColor.withOpacity(0.8),
+                    backgroundColor: TColors.secondary.withOpacity(0.8),
                     padding: const EdgeInsets.symmetric(
                         horizontal: TSizes.sm, vertical: TSizes.xs),
                     child: Text(
@@ -83,7 +82,7 @@ class TCourseCardVertical extends StatelessWidget {
                   SizedBox(
                     height: TSizes.spaceBtwnItems / 1.5,
                   ),
-                  TCourseBrandTitleWithVerfiedIcon(title: '3D Max'),
+                  TCourseTopicTitleWithVerfiedIcon(title: '3D Max'),
                   SizedBox(
                     height: TSizes.spaceBtwnItems / 2,
                   ),

@@ -20,7 +20,7 @@ class TSettingMenuTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: Icon(icon, size: 20, color: TColors.primaryColor),
+      leading: Icon(icon, size: 20, color: TColors.primary),
       title: Text(title, style: Theme.of(context).textTheme.titleMedium),
       subtitle: Text(subTitle, style: Theme.of(context).textTheme.labelMedium),
       trailing: trailing,

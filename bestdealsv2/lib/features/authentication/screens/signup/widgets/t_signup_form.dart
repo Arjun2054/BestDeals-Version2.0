@@ -115,12 +115,9 @@ class TSignupForm extends StatelessWidget {
                   TextSpan(
                     text: '${TTexts.privacyPolicy} ',
                     style: Theme.of(context).textTheme.bodyMedium!.apply(
-                        color: dark
-                            ? TColors.textWhiteColor
-                            : TColors.primaryColor,
-                        decorationColor: dark
-                            ? TColors.textWhiteColor
-                            : TColors.primaryColor,
+                        color: dark ? TColors.textWhiteColor : TColors.primary,
+                        decorationColor:
+                            dark ? TColors.textWhiteColor : TColors.primary,
                         decoration: TextDecoration.underline),
                   ),
                   TextSpan(
@@ -130,12 +127,9 @@ class TSignupForm extends StatelessWidget {
                   TextSpan(
                     text: '${TTexts.termOfUse} ',
                     style: Theme.of(context).textTheme.bodyMedium!.apply(
-                        color: dark
-                            ? TColors.textWhiteColor
-                            : TColors.primaryColor,
-                        decorationColor: dark
-                            ? TColors.textWhiteColor
-                            : TColors.primaryColor,
+                        color: dark ? TColors.textWhiteColor : TColors.primary,
+                        decorationColor:
+                            dark ? TColors.textWhiteColor : TColors.primary,
                         decoration: TextDecoration.underline),
                   ),
                 ],

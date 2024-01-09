@@ -5,9 +5,9 @@ class TColors {
 
   //App basic Colors
 
-  static const Color primaryColor = Color(0xFF114b7b);
-  static const Color secondaryColor = Color(0xFFFFE24B);
-  static const Color accentColor = Color(0xFFb0c7ff);
+  static const Color primary = Color(0xFF114b7b);
+  static const Color secondary = Color(0xFFFFE24B);
+  static const Color accent = Color(0xFFb0c7ff);
 
   static const Color whiteColor = Color.fromARGB(255, 255, 255, 255);
 
@@ -29,8 +29,8 @@ class TColors {
   static const Color textWhiteColor = Colors.white;
 
   // Background Color
-  static const Color lightColor = Color(0xFFF6F6F6);
-  static const Color darkColor = Color(0xFF272727);
+  static const Color light = Color(0xFFF6F6F6);
+  static const Color dark = Color(0xFF272727);
   static const Color primaryBackgroundColor = Color(0xFFF3F5FF);
 
   // Background Container Color
@@ -58,4 +58,5 @@ class TColors {
   static const Color darkerGreyColor = Color(0xFF4F4F4F);
   static const Color darkGreyColor = Color(0xFF939393);
   static const Color greyColor = Color(0xFFE0E0E0);
+  static const Color softGrey = Color(0xFFF4F4F4);
 }

@@ -2,7 +2,6 @@ import 'package:bestdealsv2/common/widgets/ratings/rating_bar.dart';
 import 'package:bestdealsv2/utils/constants/colors.dart';
 import 'package:bestdealsv2/utils/constants/image_strings.dart';
 import 'package:bestdealsv2/utils/constants/sizes.dart';
-import 'package:bestdealsv2/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:readmore/readmore.dart';
 
@@ -11,7 +10,6 @@ class TUserReviewCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = THelperFunctions.isDarkMode(context);
     return Column(
       children: [
         Row(
@@ -60,11 +58,11 @@ class TUserReviewCard extends StatelessWidget {
           moreStyle: TextStyle(
               fontSize: 14,
               fontWeight: FontWeight.bold,
-              color: TColors.primaryColor),
+              color: TColors.primary),
           lessStyle: TextStyle(
               fontSize: 14,
               fontWeight: FontWeight.bold,
-              color: TColors.primaryColor),
+              color: TColors.primary),
         ),
       ],
     );

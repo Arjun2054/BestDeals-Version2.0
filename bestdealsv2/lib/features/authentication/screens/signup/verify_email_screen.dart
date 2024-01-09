@@ -69,10 +69,12 @@ class VerifyEmailScreen extends StatelessWidget {
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                  onPressed: () => Get.to(() => const SuccessScreen(
-                      image: TImages.emailCreatedSucess,
-                      title: TTexts.youraccountCreatedTitle,
-                      subTitle: TTexts.yourAccountCreatedSubTitle)),
+                  onPressed: () => Get.to(() => SuccessScreen(
+                        image: TImages.emailCreatedSucess,
+                        title: TTexts.youraccountCreatedTitle,
+                        subTitle: TTexts.yourAccountCreatedSubTitle,
+                        onPressed: () => Get.offAll(() => const LoginScreen()),
+                      )),
                   child: const Text(TTexts.tContinue),
                 ),
               ),

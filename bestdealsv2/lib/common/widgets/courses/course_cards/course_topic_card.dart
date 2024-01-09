@@ -7,10 +7,10 @@ import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/helpers/helper_functions.dart';
 import '../../custom_shapes/container/rounded_container.dart';
 import '../../images/circular_image.dart';
-import '../../text/course_brand_title_with_verfied_icon.dart';
+import '../../text/course_topic_title_with_verfied_icon.dart';
 
-class TCourseBrandCard extends StatelessWidget {
-  const TCourseBrandCard({super.key, this.onTap, required this.showBorder});
+class TCourseTopicCard extends StatelessWidget {
+  const TCourseTopicCard({super.key, this.onTap, required this.showBorder});
   final bool showBorder;
   final void Function()? onTap;
 
@@ -46,9 +46,9 @@ class TCourseBrandCard extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const TCourseBrandTitleWithVerfiedIcon(
+                  const TCourseTopicTitleWithVerfiedIcon(
                     title: 'Vray',
-                    courseBrandTextSize: TextSizes.large,
+                    courseTopicTextSize: TextSizes.large,
                   ),
                   Text(
                     '10 Courses',

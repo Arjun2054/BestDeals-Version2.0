@@ -1,9 +1,8 @@
 import 'package:bestdealsv2/common/widgets/appbar/app_bar.dart';
 import 'package:bestdealsv2/common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
-import 'package:bestdealsv2/common/widgets/images/circular_image.dart';
-import 'package:bestdealsv2/common/widgets/list_tile/setting_menu_tile.dart';
 import 'package:bestdealsv2/common/widgets/text/course_title.dart';
 import 'package:bestdealsv2/common/widgets/text/section_heading.dart';
+import 'package:bestdealsv2/features/course/screens/checkout/checkout_screen.dart';
 import 'package:bestdealsv2/features/course/screens/course_details/widgets/course_meta_data.dart';
 import 'package:bestdealsv2/features/course/screens/course_reviews/course_review_screen.dart';
 import 'package:bestdealsv2/utils/constants/colors.dart';
@@ -215,7 +214,7 @@ class CourseDetailsScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () => Get.to(() => const CheckoutScreen()),
                       child: const Text('Buy Now'),
                     ),
                   ),

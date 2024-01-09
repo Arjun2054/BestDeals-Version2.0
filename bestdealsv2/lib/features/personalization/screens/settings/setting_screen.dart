@@ -1,11 +1,9 @@
 import 'package:bestdealsv2/common/widgets/appbar/app_bar.dart';
 import 'package:bestdealsv2/common/widgets/custom_shapes/container/primary_header_container.dart';
-import 'package:bestdealsv2/common/widgets/images/circular_image.dart';
 import 'package:bestdealsv2/common/widgets/list_tile/setting_menu_tile.dart';
 import 'package:bestdealsv2/common/widgets/text/section_heading.dart';
 import 'package:bestdealsv2/features/personalization/screens/profile/profile_screen.dart';
 import 'package:bestdealsv2/utils/constants/colors.dart';
-import 'package:bestdealsv2/utils/constants/image_strings.dart';
 import 'package:bestdealsv2/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

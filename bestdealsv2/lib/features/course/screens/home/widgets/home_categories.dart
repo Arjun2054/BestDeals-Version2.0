@@ -1,10 +1,8 @@
+import 'package:bestdealsv2/features/course/screens/sub_category/sub_category_screen.dart';
 import 'package:flutter/material.dart';
-
+import 'package:get/get.dart';
 import '../../../../../common/widgets/image_with_text/vertical_image_text.dart';
-import '../../../../../common/widgets/text/section_heading.dart';
-import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/image_strings.dart';
-import '../../../../../utils/constants/sizes.dart';
 
 class THomeCategories extends StatelessWidget {
   const THomeCategories({
@@ -13,37 +11,19 @@ class THomeCategories extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(left: TSizes.defaultSpace),
-      child: Column(
-        children: [
-          const TSectionHeading(
-            title: 'Popular Category',
-            textColor: TColors.whiteColor,
-            showActionButton: false,
-          ),
-          const SizedBox(
-            height: TSizes.spaceBtwnItems,
-          ),
-          SizedBox(
-            height: 80,
-            child: ListView.builder(
-                itemCount: 6,
-                shrinkWrap: true,
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (_, index) {
-                  return const TVerticalImageText(
-                    image: TImages.gameDesigner,
-                    title: "Game Design",
-                    backgroundColor: TColors.whiteColor,
-                  );
-                }),
-          ),
-          const SizedBox(
-            height: TSizes.spaceBtwnSections,
-          ),
-        ],
-      ),
+    return SizedBox(
+      height: 80,
+      child: ListView.builder(
+          itemCount: 5,
+          shrinkWrap: true,
+          scrollDirection: Axis.horizontal,
+          itemBuilder: (_, index) {
+            return TVerticalImageText(
+              image: TImages.gameDesigner,
+              title: "Designs",
+              onTap: () => Get.to(() => const SubCategoryScreen()),
+            );
+          }),
     );
   }
 }

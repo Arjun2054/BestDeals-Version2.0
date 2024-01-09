@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "671208928752",
+    "project_id": "bestdeals-daa3c",
+    "storage_bucket": "bestdeals-daa3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671208928752:android:842125a38ebed63b685935",
+        "android_client_info": {
+          "package_name": "com.example.bestdeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671208928752-7k1aoqp7m34e12qsl3spqti6636vk5m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuEvfspkfXSIiAbCnNvRtR6RU-ramDMQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671208928752-7k1aoqp7m34e12qsl3spqti6636vk5m4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671208928752-ued9geim13i59sm45nbalh2jgp278q7a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bestdeals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671208928752:android:4e37e0902ba4223b685935",
+        "android_client_info": {
+          "package_name": "com.example.bestdealsadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671208928752-7k1aoqp7m34e12qsl3spqti6636vk5m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuEvfspkfXSIiAbCnNvRtR6RU-ramDMQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671208928752-7k1aoqp7m34e12qsl3spqti6636vk5m4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671208928752-ued9geim13i59sm45nbalh2jgp278q7a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bestdeals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671208928752:android:a8e138a043d658c5685935",
+        "android_client_info": {
+          "package_name": "com.example.bestdealsv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671208928752-7k1aoqp7m34e12qsl3spqti6636vk5m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuEvfspkfXSIiAbCnNvRtR6RU-ramDMQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671208928752-7k1aoqp7m34e12qsl3spqti6636vk5m4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671208928752-ued9geim13i59sm45nbalh2jgp278q7a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bestdeals"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
