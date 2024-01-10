@@ -34,6 +34,10 @@ dependencies:
 
   #firebase configuration
   firebase_core: ^2.24.2
+  lottie: ^2.7.0
+  connectivity_plus: ^5.0.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
 
   #product specific
 

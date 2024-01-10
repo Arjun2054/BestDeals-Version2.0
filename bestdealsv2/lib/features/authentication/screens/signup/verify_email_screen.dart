@@ -15,6 +15,10 @@ class VerifyEmailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      /// The Close icon is the app bar is used to logout and redirect the to the login screen
+      /// This approach is taken to handle scenarios where the user enters the registration process,
+      /// and the data is stored. Open reopening the app, its check if the email is verified.
+      /// If not verfied, the app always navigates to the verfiication screen
       appBar: AppBar(
         automaticallyImplyLeading: false,
         actions: [
@@ -24,6 +28,7 @@ class VerifyEmailScreen extends StatelessWidget {
         ],
       ),
       body: SingleChildScrollView(
+        // Padding is give default equal space on all side in all screens
         child: Padding(
           padding: const EdgeInsets.all(TSizes.defaultSpace),
           child: Column(
@@ -69,12 +74,13 @@ class VerifyEmailScreen extends StatelessWidget {
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                  onPressed: () => Get.to(() => SuccessScreen(
-                        image: TImages.emailCreatedSucess,
-                        title: TTexts.youraccountCreatedTitle,
-                        subTitle: TTexts.yourAccountCreatedSubTitle,
-                        onPressed: () => Get.offAll(() => const LoginScreen()),
-                      )),
+                  onPressed: () {},
+                  // onPressed: () => Get.to(() => SuccessScreen(
+                  //       image: TImages.emailCreatedSucess,
+                  //       title: TTexts.youraccountCreatedTitle,
+                  //       subTitle: TTexts.yourAccountCreatedSubTitle,
+                  //       onPressed: () => Get.offAll(() => const LoginScreen()),
+                  //     )),
                   child: const Text(TTexts.tContinue),
                 ),
               ),
@@ -84,7 +90,8 @@ class VerifyEmailScreen extends StatelessWidget {
               SizedBox(
                 width: double.infinity,
                 child: TextButton(
-                  onPressed: () => Get.to(() => const VerifyEmailScreen()),
+                  // onPressed: () => Get.to(() => const VerifyEmailScreen()),
+                  onPressed: () {},
                   child: const Text(TTexts.resendEmail),
                 ),
               ),

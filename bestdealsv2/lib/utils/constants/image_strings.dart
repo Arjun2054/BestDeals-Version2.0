@@ -4,6 +4,12 @@ class TImages {
   // -- App Logos
   static const String appLogo = "assets/logos/app_logo.png";
 
+  // -- App Logos
+  static const String darkAppLogo =
+      "assets/logos/t-store-splash-logo-black.png";
+  static const String lightAppLogo =
+      "assets/logos/t-store-splash-logo-white.png";
+
   // -- Social logos
   static const String google = "assets/logos/google_logo.png";
   static const String facebook = "assets/logos/facebook_logo.png";
@@ -52,6 +58,10 @@ class TImages {
   static const String courseImage10 = "assets/images/course/courseimage_10.jpg";
   static const String courseImage11 = "assets/images/course/courseimage_11.jpg";
   static const String courseImage12 = "assets/images/course/courseimage_12.jpg";
+
+  // Animation Images
+  static const String loadingAnimation =
+      "assets/images/animation/loader-animation.json";
 
   // payment images
   static const String esewa = "assets/icons/payment/esewa.png";

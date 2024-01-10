@@ -19,7 +19,7 @@ class TLoginHeader extends StatelessWidget {
         Image(
           height: 60,
           image: AssetImage(
-            dark ? TImages.appLogo : TImages.appLogo,
+            dark ? TImages.lightAppLogo : TImages.darkAppLogo,
           ),
         ),
         const SizedBox(
